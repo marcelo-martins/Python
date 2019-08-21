@@ -1,0 +1,1 @@
+## Python exercises that deal with image processing
