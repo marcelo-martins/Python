@@ -38,6 +38,9 @@ print(im_in[4, 8])
 for x in range(0, im_in.shape[0]):
     for y in range(0, im_in.shape[1]):
         im_in[x,y] = int(float(im_in[x,y]/2.55) + 100)
+        print(im_in[x,y])
+        if(y==252):
+            break 
 
 cv2.imshow("different range", im_in)
 cv2.waitKey(0)
